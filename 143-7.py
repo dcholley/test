@@ -13,7 +13,7 @@ def make_mask(rows, columns, stripe_width):
     image = np.array(img)
     for row in range(rows):
         for column in range(columns):
-            if row % 3 == 0: 
+            if row % 5 == 0: 
                 image[row][column] = [200, 0, 200, 255]
  
             else:
